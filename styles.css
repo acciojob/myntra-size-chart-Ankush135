@@ -1,2 +1,30 @@
 
 /* Your CSS Code here. */
+table{
+	table-layout: fixed;
+	width:600px
+}
+table,td,tr,th{
+	border: 1px solid black;
+	border-collapse: collapse
+}
+th{
+	text-align: left;
+	background-color: #FF3D63;
+	color: white;
+}
+td{
+	text-align: right;
+}
+.waist{
+	background-color: #f2b5b0;
+}
+.chest{
+	background-color: #f2dede;
+}
+.sleeve{
+	background-color: #d9d9d9;
+}
+.text{
+	text-align: left;
+}
